@@ -9,6 +9,7 @@ public class Main {
 
         laptop1.setBrand("Dell");
         laptop1.setPrice(99.99);
+        laptop1.setModel("Inspiron");
         laptop1.setScreenSize(100);
 
         laptop1.displayInfo();
