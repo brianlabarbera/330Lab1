@@ -64,7 +64,7 @@ class Laptop extends Computer {
     }
 
     public void displayInfo() {
-        super.displayInfo(); // Call the displayInfo method of the parent class
+        super.displayInfo();
         System.out.println("Screen Size (inches): " + screenSize);
     }
 
