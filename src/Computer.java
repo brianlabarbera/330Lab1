@@ -51,7 +51,7 @@ class Laptop extends Computer {
     private double screenSize;
 
     public Laptop(String brand, String model, double price, double screenSize) {
-        super(brand, model, price); // Call the constructor of the parent class
+        super(brand, model, price);
         this.screenSize = screenSize;
     }
 
